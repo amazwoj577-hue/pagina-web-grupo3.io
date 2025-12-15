@@ -28,7 +28,7 @@ ul.indice { /*tabla de navegacion*/
     width: 160px;
     position: absolute;
     position: fixed;/*para fijar el menu*/
-    margin-left: -5%;
+    margin-left: -3%;
     margin-top: -3%;
 }
 
