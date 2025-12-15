@@ -1,0 +1,63 @@
+<service fechaActualizacion="2025-10-13" id="107736">
+<language>es</language>
+<nombre> Mercado Madriles Reina Victoria </nombre>
+<email>info@mercadomadrilesreinavictoria.com</email>
+<phone>911 831 812</phone>
+<descripción>Un espacio que se inspira en los mercados gastronómicos para ofrecer diversas propuestas culinarias que invitan a disfrutar de los platos y sabores del mundo sin moverse del sitio. Hay seis puestos y un amplio espacio con mesas y barras donde deleitarse con tradicionales tapas españolas, originales creaciones de origen asiático o platos típicos del otro lado del Atlántico. La experiencia se completa con Gingko Bar, una barra de cervezas y vinos selectos, y Gingko Cocktail, una barra de coctelería de autor. Con todo ello, Mercado Madriles, ubicado a pie de calle en el hotel VP SOGNIO Metropolitano, busca convertirse en un punto de encuentro en cualquier momento del día y es que es ideal para disfrutar de un almuerzo informal, una cena con amigos o un afterwork después del trabajo.
+<web>https://www.esmadrid.com/restaurantes/mercado-madriles-reina-victoria</web>
+<address>Reina Victoria, 12</address>
+<zipcode>28003</zipcode>
+<country>Spain</country>
+<latitude>40.412774400000</latitude>
+<longitude>-3.706060800000</longitude>
+<subAdministrativeArea>Madrid</subAdministrativeArea>
+<multimedia>
+<media type="image">
+<description/>
+<url>https://estaticos.esmadrid.com/cdn/farfuture/eXgrLGT47p4PU4uwAlwRszIKXS5E_GJ1V9RKSOE3Woo/mtime:1760353817/sites/default/files/recursosturisticos/restaurantes/mercados_madriles_-_barra_principal_.jpg</url>
+</media>
+<media type="image">
+<description/>
+<url>https://estaticos.esmadrid.com/cdn/farfuture/iv15_Rdv-TRSdWk9NqziH6SfUmR0z8iYXSme0TgE4_4/mtime:1760353943/sites/default/files/recursosturisticos/restaurantes/mercados_madriles_-_kung_food_ginkgo_bar_healthy_canalla_.jpg</url>
+</media>
+<media type="image">
+<description/>
+<url>https://estaticos.esmadrid.com/cdn/farfuture/uc4GbnvgOQGMW0L61rAw3sE7d83Nid2rD7g9skRxZuE/mtime:1760353968/sites/default/files/recursosturisticos/restaurantes/tapeo_madriles_-_ensaladilla_gildas_y_tortilla_de_patatas_2_.jpg</url>
+</media>
+</multimedia>
+<extradata>
+<item name="idTipo">2</item>
+<item name="Tipo">Restaurantes</item>
+<categorias>
+<categoria>
+<item name="idCategoria">7517</item>
+<item name="Categoria">Bares</item>
+</categoria>
+<categoria>
+<item name="idCategoria">7149</item>
+<item name="Categoria">Tapas</item>
+</categoria>
+<categoria>
+<item name="idCategoria">7074</item>
+<item name="Categoria">Española</item>
+</categoria>
+<categoria>
+<item name="idCategoria">7102</item>
+<item name="Categoria">Internacional</item>
+<subcategorias>
+<subcategoria>
+<item name="idSubCategoria">7143</item>
+<item name="SubCategoria">Latinoamericana</item>
+</subcategoria>
+</subcategorias>
+</categoria>
+</categorias>
+<Horario>
+Dom- Jue: 12:00 - 23:30 h, Viernes y sábado:13:00 - 24:00 h
+</Horario>
+<Precio> 5-20€ </Precio>
+<Valoración> 3,9/5 </Valoración>
+<fechas/>
+</extradata>
+</descripción>
+</service>
