@@ -1,0 +1,272 @@
+<!-- http://127.0.0.1:5500/indice.html -->
+<!-- http://127.0.0.1:5501/indice.html -->
+<!-- https://amazwoj577-hue.github.io/pagina-web-grupo3.io/ -->
+<!-- aun no hay nada-->
+
+<!DOCTYPE html>
+<html lang="es">
+    <link rel="stylesheet" href="estilos.css">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grupo3</title>
+</head>
+<body>
+    <header class="navegacion" id="inicio"> <!--Encabezado con la barra de navegacion-->
+        
+        <nav><!--Barra de navegacion--><!-- hacer que este minimizada y cuando se ponga el raton encima se despliege el menu-->
+            <ul class="indice"> <!--Lista de enlaces de la barra de navegacion-->
+                <li><a href="#"> <img src="menu.png" alt="20px" height="30px"> </a></li>
+                <li class="oculto"><a href="#inicio">Inicio</a></li>
+                <li class="oculto"><a href="#Tapas">Tapas</a></li>
+                <li class="oculto"><a href="#Tradicional">Tradicional</a></li>
+                <li class="oculto"><a href="#Internacional">Internacional</a></li>
+                <li class="oculto"><a href="#Vegetariano">Vegetariana</a></li>
+                <li class="oculto"><a href="#Vegano">Vegana</a></li>
+                <li class="oculto"><a href="#fin">Fin</a></li>
+            </ul>
+        </nav>
+        <h1 class="titulo">Restaurantes con perfil turísticos <br> de la ciudad de Madrid</h1>
+    </header>
+
+
+
+        <div class="Restaurantes" > <!--Contenedor principal de los restaurantes-->
+            <div id="Tapas" data-carousel="1"> <!--Contenedor individual de cada restaurante-->
+                <div>
+                <div class="carousel-slide active">
+                    <img src="foto1mercadomadrilesreinavictoria.jpg" alt="">
+                </div>
+                <div class="carousel-slide">
+                    <img src="https://estaticos.esmadrid.com/cdn/farfuture/iv15_Rdv-TRSdWk9NqziH6SfUmR0z8iYXSme0TgE4_4/mtime:1760353943/sites/default/files/recursosturisticos/restaurantes/mercados_madriles_-_kung_food_ginkgo_bar_healthy_canalla_.jpg">
+                </div>
+                <div class="carousel-slide">
+                    <img src="https://estaticos.esmadrid.com/cdn/farfuture/uc4GbnvgOQGMW0L61rAw3sE7d83Nid2rD7g9skRxZuE/mtime:1760353968/sites/default/files/recursosturisticos/restaurantes/tapeo_madriles_-_ensaladilla_gildas_y_tortilla_de_patatas_2_.jpg">
+                </div>
+                <button class="izquierda" onclick="changeSlide(-1, 1)"></button> <!--Botones para navegar entre las fotos-->
+                <button class="derecha" onclick="changeSlide(1, 1)"></button>
+            
+            </div>
+                <h1 class="Nombre">Mercado Madriles Reina Victoria</h1> <!--Nombre del restaurante-->
+                    <div>
+                    <div class="descripcion"> <!--Descripcion del restaurante-->
+                        <h2>Descripción Del Lugar</h2>
+                        <p>Un espacio que se inspira en los mercados gastronómicos para ofrecer diversas propuestas culinarias que invitan a disfrutar de los platos y sabores del mundo sin moverse del sitio. Hay seis puestos y un amplio espacio con mesas y barras donde deleitarse con tradicionales tapas españolas, originales creaciones de origen asiático o platos típicos del otro lado del Atlántico. La experiencia se completa con Gingko Bar, una barra de cervezas y vinos selectos, y Gingko Cocktail, una barra de coctelería de autor. Con todo ello, Mercado Madriles, ubicado a pie de calle en el hotel VP SOGNIO Metropolitano, busca convertirse en un punto de encuentro en cualquier momento del día y es que es ideal para disfrutar de un almuerzo informal, una cena con amigos o un afterwork después del trabajo.</p>
+                    </div>
+                        <div class="horarios"> <!--Horarios del restaurante-->
+                            <h2>Horarios</h2>
+                                <ul> <!--Lista de horarios por dia-->
+                                    <li>lunes: 12:00-23:30 h</li>
+                                    <li>martes: 12:00-23:30 h</li>
+                                    <li>miercoles: 12:00-23:30 h</li>
+                                    <li>jueves: 12:00-23:30 h</li>
+                                    <li>viernes: 13:00-24:00 h</li>
+                                    <li>sabado: 13:00-24:00 h</li>
+                                    <li>domingo: 12:00-23:30 h</li>
+                                </ul>
+                        </div>
+                    </div>
+                <div>
+                    <div class="precio">  <!--Rango de precios del restaurante-->
+                        <h3>Rango de Precio</h3>
+                        <p>5 - 20€</p>
+                    </div>
+                    <div>
+                        <button class="info" onclick="openModal('restaurante1')">+INFO</button> <!--botón de más informacion y apertura de ventana modal al hacer click-->
+                            <div class="modal-overlay" id="restaurante1" onclick="closeModalOnOverlay(event, 'restaurante1')"> <!--activa la función de cerrar la ventana modal al hacer click fuera de la página-->
+                            <div class="modal"> <!--Clase de la ventana modal-->
+                        <button class="close-button" onclick="closeModal('restaurante1')">&times;</button><!--botón con forma de "x" para cerrar la ventana modal-->
+                        <div class="modal-content"><!--añadir para que al poner el raton encima salga la informacion que se precise del restaurante-->
+                            <ul>
+                                <li><b>Valoración:</b> 3,9/5 </li>
+                                <li><b>Tipo de comida/categoría:</b> Tapas, Comida española</li>
+                                <li><b>Web:</b>https://mercadomadrilesreinavictoria.com/mercado/</li>
+                                <li><b>Número de teléfono:</b> 911 831 812</li>
+                                <li><b>Email:</b> info@mercadomadrilesreinavictoria.com</li>
+                            </ul>
+                        </div>
+                            </div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="Restaurantes" > <!--Contenedor principal de los restaurantes-->
+            <div id="Vegano" data-carousel="2">
+                <div class="carousel-slide active">
+                    <img src="Foto1Pipilacha.jpg" alt="">
+                </div>
+                <div class="carousel-slide">
+                    <img src= "https://estaticos.esmadrid.com/cdn/farfuture/-yYQltQ-e8KXUglx-AtDF-BMic1hdQP4FIPmwTKf6Lo/mtime:1761036254/sites/default/files/recursosturisticos/restaurantes/pipilacha.jpg">
+                </div>
+                <div class="carousel-slide">
+                    <img src="https://estaticos.esmadrid.com/cdn/farfuture/mNbmPiXeSHWPkYOvL6SWJkSrnT9TnBbz_psWwLirnog/mtime:1761038733/sites/default/files/recursosturisticos/restaurantes/pipilacha_4.jpg">
+                </div>
+                <button class="izquierda" onclick="changeSlide(-1, 2)"></button> <!--Botones para navegar entre las fotos-->
+                <button class="derecha" onclick="changeSlide(1, 2)"></button>
+                <h1 class="Nombre">Pipilacha</h1>
+                <div>
+                    <div class="descripcion"> <!--Descripcion del restaurante-->
+                        <h2>Descripción Del Lugar</h2>
+                        <p>Este novedoso proyecto gastronómico, creado por dos jóvenes chefs, Arán y Noé, combina la alta cocina con un entorno floral para ofrecer una experiencia sensorial única. Desde su local situado en Fuente del Berro, en el Barrio de Salamanca, ofrecen un menú degustación innovador inspirado en las flores. Cuentan con wifi en todo el local y con acceso adaptado y espacio suficiente para silla de ruedas. Así, los 15 pases que componen su menú degustación están elaborados con productos de proximidad e ingredientes frescos. Cada uno tiene a una flor como protagonista, utilizando su sabor, aroma, color o textura para "maridar" el plato. Además del menú propuesto, disponen de platos veganos y vegetarianos así como de propuestas para personas con intolerancia al gluten y la lactosa.</p>
+                    </div>
+                    <div class="horarios"> <!--Horarios del restaurante-->
+                        <h2>Horarios</h2>
+                        <div>
+                            <ul> <!--Lista de horarios por dia-->
+                                <li>lunes: cerrado</li>
+                                <li>martes: 14:00-16:00h, 21:00-23:00h</li>
+                                <li>miercoles: 14:00-16:00h, 21:00-23:00h</li>
+                                <li>jueves: 14:00-16:00h, 21:00-23:00h</li>
+                                <li>viernes: 14:00-16:00h, 21:00-23:00h</li>
+                                <li>sabado: 14:00-16:00h, 21:00-23:00h</li>
+                                <li>domingo: cerrado</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="precio"> <!--Rango de precios del restaurante-->
+                    <h3>Precio</h3>
+                    <p>75€</p>
+                </div>
+                <button class="info" onclick="openModal('restaurante2')">+INFO</button> <!--botón de mas información-->
+                            <div class="modal-overlay" id="restaurante2" onclick="closeModalOnOverlay(event, 'restaurante2')">
+                            <div class="modal">
+                        <button class="close-button" onclick="closeModal('restaurante2')">&times;</button>
+                        <div class="modal-content"><!--añadir para que al poner el raton encima salga la informacion que se precise del restaurante-->
+                            <ul>
+                                <li><b>Valoración:</b> 5/5</li>
+                                <li><b>Tipo de comida/categoría:</b> Vegana, Vegetariana</li>
+                                <li><b>Web:</b> https://www.pipilacha.es/</li>
+                                <li><b>Número de teléfono:</b> 919 12 59 98</li>
+                                <li><b>Email:</b> admin@pipilacha.es</li>
+                            </ul>
+                        </div>
+                            </div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="Restaurantes"> <!--Contenedor principal de los restaurantes-->
+            <div id="Tradicional" data-carousel="3">
+                <div class="carousel-slide active">
+                    <img src="foto3calvero.jpg" alt="">
+                </div>
+                <div class="carousel-slide">
+                    <img src= "https://estaticos.esmadrid.com/cdn/farfuture/QY8QzCdUOOVEpE5VnzdTbZNc2UKWbWfwr9aj5a57goQ/mtime:1760521980/sites/default/files/recursosturisticos/restaurantes/calvero_2.jpg">
+                </div>
+                <div class="carousel-slide">
+                    <img src="https://estaticos.esmadrid.com/cdn/farfuture/oUN24pBFktTjPQWe_5G593dtlmbC_eeXXqswwW948_o/mtime:1760522049/sites/default/files/recursosturisticos/restaurantes/calvero_4.jpg">
+                </div>
+                <button class="izquierda" onclick="changeSlide(-1, 3)"></button> <!--Botones para navegar entre las fotos-->
+                <button class="derecha" onclick="changeSlide(1, 3)"></button>
+                <h1 class="Nombre">Calvero</h1>
+                <div>
+                    <div class="descripcion"> <!--Descripcion del restaurante-->
+                        <h2>Descripción Del Lugar</h2>
+                        <p>El Gran Madrid Casino Colón alberga este nuevo restaurante liderado por el chef Juanjo López, creador de La Tasquita de Enfrente y referente de la gastronomía madrileña. Calvero combina tradición y modernidad en un entorno elegante y acogedor, inspirado en la calma y el encanto de un claro en medio del bosque. La carta de Calvero se compone de platos en los que el producto y la estacionalidad son los protagonistas, elaborados con técnicas depuradas y materias primas de temporada. Centrado en la cocina madrileña con toques creativos y guiños cosmopolitas, el chef ofrece platos imprescindibles de la gastronomía más castiza como la gilda, el pepito de solomillo, la ensaladilla rusa o los callos, entre los que destaca su reconocido steak tartar, galardonado en Madrid Fusión 2025. El acceso al restaurante solo está permitido para mayores de edad, al encontrarse dentro de un casino. Solo se sirven cenas.</p>
+                    </div>
+                    <div class="horarios"> <!--Horarios del restaurante-->
+                        <h2>Horarios</h2>
+                        <div>
+                            <ul> <!--Lista de horarios por dia-->
+                                <li>lunes: 19:30 - 00:30 h</li>
+                                <li>martes: 19:30 - 00:30 h</li>
+                                <li>miercoles: 19:30 - 00:30 h</li>
+                                <li>jueves: 19:30 - 00:30 h</li>
+                                <li>viernes: 19:30 - 00:30 h</li>
+                                <li>sabado: 19:30 - 00:30 h</li>
+                                <li>domingo: 19:30 - 00:30 h</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="precio"> <!--Rango de precios del restaurante-->
+                    <h3>Rango de Precio</h3>
+                    <p>15€ - 35€</p>
+                </div>
+                <button class="info" onclick="openModal('restaurante3')">+INFO</button> <!--botón de más informacion y apertura de interfaz al hacer click-->
+                            <div class="modal-overlay" id="restaurante3" onclick="closeModalOnOverlay(event, 'restaurante3')">
+                            <div class="modal">
+                        <button class="close-button" onclick="closeModal('restaurante3')">&times;</button>
+                        <div class="modal-content"><!--añadir para que al poner el raton encima salga la informacion que se precise del restaurante-->
+                            <ul>
+                                <li><b>Tipo de comida/categoría:</b> Tradicional, Comida española</li>
+                                <li><b>Web:</b> https://restaurantecalvero.com/</li>
+                                <li><b>Número de teléfono:</b> 646 10 27 67</li>
+                            </ul>
+                        </div>
+                            </div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    <script>
+        // Función que sirve para abrir la interfaz del botón al hacerle click
+        function openModal(modalId) {
+            document.getElementById(modalId).classList.add('active');
+        }
+        // Función que sirve para cerrar la interfaz del botón al hacerle click
+        function closeModal(modalId) {
+            document.getElementById(modalId).classList.remove('active');
+        }
+        // Función que sirve para cerrar la interfaz del botón al hacer click fuera de la página
+        function closeModalOnOverlay(event, modalId) {
+            if (event.target.id === modalId) {
+                closeModal(modalId);
+            }
+        }
+        ;
+        
+        // Objeto para guardar el estado de cada carrusel
+        const carousels = {};
+
+        function initCarousel(carouselId) {
+            const container = document.querySelector(`[data-carousel="${carouselId}"]`);
+            const slides = container.querySelectorAll('.carousel-slide');
+    
+            carousels[carouselId] = {
+            currentSlide: 0,
+            slides: slides,
+            };
+        }
+
+        function showSlide(n, carouselId) {
+            const carousel = carousels[carouselId];
+    
+            if (n >= carousel.slides.length) carousel.currentSlide = 0;
+            if (n < 0) carousel.currentSlide = carousel.slides.length - 1;
+
+            carousel.slides.forEach(slide => slide.classList.remove('active'));
+
+            carousel.slides[carousel.currentSlide].classList.add('active');
+        }
+
+        function changeSlide(direction, carouselId) {
+            carousels[carouselId].currentSlide += direction;
+            showSlide(carousels[carouselId].currentSlide, carouselId);
+        }
+
+        function goToSlide(n, carouselId) {
+            carousels[carouselId].currentSlide = n;
+            showSlide(n, carouselId);
+        }
+
+        // Inicializar todos los carruseles al cargar la página
+        initCarousel(1);
+        initCarousel(2);
+        initCarousel(3);
+    </script>
+
+    <footer id="fin">
+    <p>&copy; Creado por: Ángel Mazuecos, Chloé Durand y Matías Silva </p>
+    </footer>
+</body>
+</html>
