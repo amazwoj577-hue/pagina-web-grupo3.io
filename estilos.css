@@ -1,0 +1,282 @@
+
+html {background-color: rgba(98, 228, 206, 0.521);
+    font-family: Times, serif;
+    scroll-behavior: smooth;
+}
+
+.navegacion {
+    background-image: url(imagen.jpg);
+    background-size: cover;
+    background-position: center;
+    color: rgb(255, 255, 255);
+    padding: 5% 2% 15% 2%;
+    margin: -0.6% -0.6% 0% -0.6%;
+}
+
+ul { /* elimina el formato predefinido de tablas*/
+    list-style-type: none;
+}
+
+li a{ /*elementos de la tabla visibles*/
+    text-decoration-line: none;
+    color: white;
+}
+
+
+
+ul.indice { /*tabla de navegacion*/
+    width: 160px;
+    position: absolute;
+    position: fixed;/*para fijar el menu*/
+    margin-left: -5%;
+    margin-top: -3%;
+}
+
+li.oculto { /*elementos de la tabla ocultos*/
+    display: none;
+    text-align: center;
+    width: 50%;
+    margin: 10%;
+    padding: 10px;
+    border: 2px solid;
+    border-color: rgb(255, 255, 255);
+    background-color: rgba(6, 88, 74, 0.525);
+    border-radius: 10%;
+}
+
+ul.indice:hover li.oculto {
+    /*cuando se pasa el raton por encima de la tabla, se muestran los elementos ocultos*/
+    display: list-item;
+}
+
+.titulo { /*estilo del titulo principal*/
+    margin-top: 15%;
+    text-align: center;
+    font-size: 60px;
+    font-weight: bold;
+}
+/* Clase de nodos */
+.Restaurantes {
+    background-color: azure;
+    color: rgb(89, 87, 87);
+    border-radius: 50px;
+    padding: 2%;
+    margin: 10%;
+}
+
+.descripcion {
+    float: left;
+    width: 70%;
+}
+
+/*flecha izquierda*/
+.izquierda {
+    top: -270px;
+    float: left;
+    width: 60px;
+    height: 60px;
+    background-color:white;
+    position: relative;
+    border-radius: 20%;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border: 3px solid rgba(98, 228, 206, 0.521);
+    transform: rotate(180deg);
+}
+
+.izquierda::after {
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-top: 4px solid rgba(98, 228, 206, 0.521);
+    border-right: 4px solid rgba(98, 228, 206, 0.521);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+}
+
+.izquierda:hover {
+    transform: rotate(180deg) translateX(10px);
+    box-shadow: 0 5px 15px rgba(98, 228, 206, 0.521);
+}
+
+/*flecha derecha*/
+.derecha {
+    top: -270px;
+    float: right;
+    width: 60px;
+    height: 60px;
+    background-color:white;
+    position: relative;
+    border-radius: 20%;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border: 3px solid rgba(98, 228, 206, 0.521);
+}
+
+.derecha::after {
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-top: 4px solid rgba(98, 228, 206, 0.521);
+    border-right: 4px solid rgba(98, 228, 206, 0.521);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+}
+
+.derecha:hover {
+    transform: translateX(10px);
+    box-shadow: 0 5px 15px rgba(98, 228, 206, 0.521);
+}
+
+    
+.Nombre {
+    text-align: center;
+}
+
+.horarios {
+    text-align: center;
+    position: absolute;
+    margin-left: 55%;
+    margin-right: 11%;
+    
+}
+
+.horarios ul{
+    border: 5px solid;
+    border-color: rgba(98, 228, 206, 0.521);
+    border-radius: 40px;
+    padding: 20px;
+    background-color: rgb(248, 255, 255);
+}
+
+.horarios ul li{
+    padding-top: 2%;
+}
+
+.precio {
+    width: 30%;
+}
+
+.info {
+    background-color: #fff;/*color del fondo del botón*/
+    color: #333; /*color de letra*/
+    padding: 15px 30px;
+    font-size: 18px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+    /* color de los bordes */
+    border: 5px solid;
+    border-color: rgb(98, 228, 206, 0.521);
+    border-radius: 40px;
+}
+
+.info:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Fondo oscuro de la ventana modal */
+.modal-overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 1000;
+    animation: fadeIn 0.3s ease;
+}
+
+.modal-overlay.active {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* La ventana modal */
+.modal {
+    background-color: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+    max-width: 600px;
+    width: 90%;
+    max-height: 80vh;
+    overflow-y: auto;
+    animation: slideIn 0.3s ease;
+    position: relative;
+}
+
+.modal-content {
+    margin: 20px 0;
+    color: #555;
+    line-height: 1.6;
+}
+
+.close-button {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background: none;
+    border: none;
+    font-size: 28px;
+    cursor: pointer;
+    color: #999;
+    transition: color 0.2s ease;
+}
+
+.close-button:hover {
+    color: #333;
+}
+
+/* imagenes de restaurantes */
+img{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 5%;
+    width: 85%;
+    height: auto;
+}
+
+/* Ajustes para las imagen de la lista de navegación */
+li a img{
+    width: 30px;
+    display: block;
+    border: 2px solid;
+    padding: 2%;
+    border-color: rgb(255, 255, 255);
+    background-color: rgb(249, 249, 249);
+    border-radius: 50%;
+}
+
+/* Pie de página */
+footer{
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    margin: -0.6% -0.6% -0.7% -0.6%;
+}
+
+
+/* Estilos para el carrusel de imágenes */
+.carousel-slide.active {
+    display: block;
+    
+}
+
+.carousel-slide {
+    display: none;
+}
+
+        

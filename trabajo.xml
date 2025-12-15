@@ -1,0 +1,212 @@
+<!-- Restaurante 1 -->
+<service fechaActualizacion="2025-10-13" id="107736">
+<language>es</language>
+<nombre> Mercado Madriles Reina Victoria </nombre>
+<email>info@mercadomadrilesreinavictoria.com</email>
+<phone>911 831 812</phone>
+<descripción>Un espacio que se inspira en los mercados gastronómicos para ofrecer diversas propuestas culinarias que invitan a disfrutar de los platos y sabores del mundo sin moverse del sitio. Hay seis puestos y un amplio espacio con mesas y barras donde deleitarse con tradicionales tapas españolas, originales creaciones de origen asiático o platos típicos del otro lado del Atlántico. La experiencia se completa con Gingko Bar, una barra de cervezas y vinos selectos, y Gingko Cocktail, una barra de coctelería de autor. Con todo ello, Mercado Madriles, ubicado a pie de calle en el hotel VP SOGNIO Metropolitano, busca convertirse en un punto de encuentro en cualquier momento del día y es que es ideal para disfrutar de un almuerzo informal, una cena con amigos o un afterwork después del trabajo.
+<web>https://www.esmadrid.com/restaurantes/mercado-madriles-reina-victoria</web>
+<address>Reina Victoria, 12</address>
+<zipcode>28003</zipcode>
+<country>Spain</country>
+<latitude>40.412774400000</latitude>
+<longitude>-3.706060800000</longitude>
+<subAdministrativeArea>Madrid</subAdministrativeArea>
+<multimedia>
+<media type="image">
+<description/>
+<url>https://estaticos.esmadrid.com/cdn/farfuture/eXgrLGT47p4PU4uwAlwRszIKXS5E_GJ1V9RKSOE3Woo/mtime:1760353817/sites/default/files/recursosturisticos/restaurantes/mercados_madriles_-_barra_principal_.jpg</url>
+</media>
+<media type="image">
+<description/>
+<url>https://estaticos.esmadrid.com/cdn/farfuture/iv15_Rdv-TRSdWk9NqziH6SfUmR0z8iYXSme0TgE4_4/mtime:1760353943/sites/default/files/recursosturisticos/restaurantes/mercados_madriles_-_kung_food_ginkgo_bar_healthy_canalla_.jpg</url>
+</media>
+<media type="image">
+<description/>
+<url>https://estaticos.esmadrid.com/cdn/farfuture/uc4GbnvgOQGMW0L61rAw3sE7d83Nid2rD7g9skRxZuE/mtime:1760353968/sites/default/files/recursosturisticos/restaurantes/tapeo_madriles_-_ensaladilla_gildas_y_tortilla_de_patatas_2_.jpg</url>
+</media>
+</multimedia>
+<extradata>
+<item name="idTipo">2</item>
+<item name="Tipo">Restaurantes</item>
+<categorias>
+<categoria>
+<item name="idCategoria">7517</item>
+<item name="Categoria">Bares</item>
+</categoria>
+<categoria>
+<item name="idCategoria">7149</item>
+<item name="Categoria">Tapas</item>
+</categoria>
+<categoria>
+<item name="idCategoria">7074</item>
+<item name="Categoria">Española</item>
+</categoria>
+<categoria>
+<item name="idCategoria">7102</item>
+<item name="Categoria">Internacional</item>
+<subcategorias>
+<subcategoria>
+<item name="idSubCategoria">7143</item>
+<item name="SubCategoria">Latinoamericana</item>
+</subcategoria>
+</subcategorias>
+</categoria>
+</categorias>
+<Horario>
+Dom- Jue: 12:00 - 23:30 h, Viernes y sábado:13:00 - 24:00 h
+</Horario>
+<Precio> 5-20€ </Precio>
+<Valoración> 3,9/5 </Valoración>
+<fechas/>
+</extradata>
+</descripción>
+</service>
+
+<!-- Otro restaurante -->
+
+<service fechaActualizacion="2025-11-03" id="107790">
+<basicData>
+<language>es</language>
+<name>
+<![CDATA[ Pipilacha ]]>
+</name>
+<email>admin@pipilacha.es</email>
+<phone>(+34) 919 12 59 98</phone>
+<fax/>
+<title>
+<![CDATA[ Pipilacha ]]>
+</title>
+<body>
+<![CDATA[ <p><strong>Este novedoso proyecto gastronómico, creado por dos jóvenes chefs, Arán y Noé, combina la alta cocina con un entorno floral para ofrecer una experiencia sensorial única. Desde su local situado en Fuente del Berro, en el Barrio de Salamanca, ofrecen un menú degustación innovador inspirado en las flores.&nbsp;</strong></p><p>El local, de 60 m2 y con aforo para 16 comensales, dispone de una sala y de una barra de showcooking. Su&nbsp;decoración es organica, con presencia de maderas de iroko, como los 6 metros de una sola pieza que hace de barra llegada directamente desde Sudamérica.&nbsp;Cuentan con wifi en todo el local y con acceso adaptado y espacio suficiente para silla de ruedas.</p><p>La propuesta gastronómica de Pipilacha pretende dar el lugar que las flores merecen en la cocina, que no se las considere como un elemento decorativo sino como las protagonistas de cada plato.&nbsp;</p><p>Así, los 15 pases que componen su menú degustación están elaborados con productos de proximidad e ingredientes frescos. Cada uno tiene a una flor como protagonista, utilizando su sabor, aroma, color o textura para "maridar" el plato. El menú se completa con&nbsp;7 bocaditos de aperitivo y con dos postres.</p><p>Además del menú propuesto, disponen de platos veganos y vegetarianos así como de propuestas para personas con intolerancia al gluten y la lactosa.&nbsp;</p><p>&nbsp;</p> ]]>
+</body>
+<web>https://www.esmadrid.com/restaurantes/pipilacha</web>
+</basicData>
+<geoData>
+<address>del Azulejo, 2</address>
+<zipcode>28028</zipcode>
+<locality/>
+<country>Spain</country>
+<latitude>40.426040700000</latitude>
+<longitude>-3.664360200000</longitude>
+<subAdministrativeArea>Madrid</subAdministrativeArea>
+</geoData>
+<multimedia>
+<media type="image">
+<description/>
+<url>https://estaticos.esmadrid.com/cdn/farfuture/8L-qpaMUec-p0RpFem3onvvXiih9NH9SXC9Dvx8MMzE/mtime:1761038697/sites/default/files/recursosturisticos/restaurantes/pipilacha_3.jpg</url>
+</media>
+<media type="image">
+<description/>
+<url>https://estaticos.esmadrid.com/cdn/farfuture/-yYQltQ-e8KXUglx-AtDF-BMic1hdQP4FIPmwTKf6Lo/mtime:1761036254/sites/default/files/recursosturisticos/restaurantes/pipilacha.jpg</url>
+</media>
+<media type="image">
+<description/>
+<url>https://estaticos.esmadrid.com/cdn/farfuture/mNbmPiXeSHWPkYOvL6SWJkSrnT9TnBbz_psWwLirnog/mtime:1761038733/sites/default/files/recursosturisticos/restaurantes/pipilacha_4.jpg</url>
+</media>
+</multimedia>
+<extradata>
+<item name="idTipo">2</item>
+<item name="Tipo">Restaurantes</item>
+<categorias>
+<categoria>
+<item name="idCategoria">7147</item>
+<item name="Categoria">De autor</item>
+</categoria>
+<categoria>
+<item name="idCategoria">7507</item>
+<item name="Categoria">Vegano</item>
+</categoria>
+<categoria>
+<item name="idCategoria">7148</item>
+<item name="Categoria">Vegetariano</item>
+</categoria>
+</categorias>
+<item name="Servicios de pago">
+<![CDATA[ ]]>
+</item>
+<item name="Horario">
+<![CDATA[ <p>Mar - Sáb: a las 14:00 y a las 21:00 h</p> ]]>
+</item>
+<fechas/>
+</extradata>
+</service>
+
+<!-- Otro restaurante -->
+
+<service fechaActualizacion="2025-10-27" id="107747">
+<basicData>
+<language>es</language>
+<name>
+<![CDATA[ Calvero ]]>
+</name>
+<email/>
+<phone>(+34) 646 10 27 67</phone>
+<fax/>
+<title>
+<![CDATA[ Calvero ]]>
+</title>
+<body>
+<![CDATA[ <p><strong>El Gran Madrid Casino Colón alberga este nuevo restaurante liderado por el chef Juanjo López, creador de <a href="https://www.esmadrid.com/restaurantes/la-tasquita-de-enfrente" target="_blank">La Tasquita de Enfrente</a> y referente de la gastronomía madrileña. En él se puede disfrutar de una cocina castiza y madrileña reinterpretada, centrada en el respeto por el producto y la temporalidad, con una carta dinámica y estacional que pone en valor cada ingrediente sin artificios.</strong></p><p>Calvero combina tradición y modernidad en un entorno elegante y acogedor, inspirado en la calma y el encanto de un claro en medio del bosque.</p><p>La carta de Calvero se compone de platos en los que el producto y la estacionalidad son los protagonistas, elaborados con técnicas depuradas y materias primas de temporada. Centrado en la cocina madrileña con toques creativos y guiños cosmopolitas, el chef ofrece platos imprescindibles de la gastronomía más castiza como la gilda, el pepito de solomillo, la ensaladilla rusa o los callos, entre los que destaca su reconocido steak tartar, galardonado en Madrid Fusión 2025.&nbsp;</p><p>El acceso al restaurante solo está permitido para mayores de edad, al encontrarse dentro de un casino. Solo se sirven cenas.</p> ]]>
+</body>
+<web>https://www.esmadrid.com/restaurantes/calvero</web>
+</basicData>
+<geoData>
+<address>de Recoletos, 37 - 41</address>
+<zipcode>28004</zipcode>
+<locality/>
+<country>Spain</country>
+<latitude>40.424432600000</latitude>
+<longitude>-3.691386100000</longitude>
+<subAdministrativeArea>Madrid</subAdministrativeArea>
+</geoData>
+<multimedia>
+<media type="image">
+<description/>
+<url>https://estaticos.esmadrid.com/cdn/farfuture/X6m-rHQYQr6Hy04fNIORMSEnyF1P5TkA4XN9DdBd3MQ/mtime:1760522079/sites/default/files/recursosturisticos/restaurantes/calvero_5.jpg</url>
+</media>
+<media type="image">
+<description/>
+<url>https://estaticos.esmadrid.com/cdn/farfuture/QY8QzCdUOOVEpE5VnzdTbZNc2UKWbWfwr9aj5a57goQ/mtime:1760521980/sites/default/files/recursosturisticos/restaurantes/calvero_2.jpg</url>
+</media>
+<media type="image">
+<description/>
+<url>https://estaticos.esmadrid.com/cdn/farfuture/OJZTgwZzyhaSktp4QSVu592ocQp8nugtWLT10StAAIw/mtime:1760522014/sites/default/files/recursosturisticos/restaurantes/calvero_3.jpg</url>
+</media>
+<media type="image">
+<description/>
+<url>https://estaticos.esmadrid.com/cdn/farfuture/oUN24pBFktTjPQWe_5G593dtlmbC_eeXXqswwW948_o/mtime:1760522049/sites/default/files/recursosturisticos/restaurantes/calvero_4.jpg</url>
+</media>
+<media type="image">
+<description/>
+<url>https://estaticos.esmadrid.com/cdn/farfuture/BxoMAZRsO1_tqRbaOSSDWARSPwQ-0gMID6SUSDPSpyo/mtime:1760522107/sites/default/files/recursosturisticos/restaurantes/calvero.jpg</url>
+</media>
+</multimedia>
+<extradata>
+<item name="idTipo">2</item>
+<item name="Tipo">Restaurantes</item>
+<categorias>
+<categoria>
+<item name="idCategoria">7074</item>
+<item name="Categoria">Española</item>
+<subcategorias>
+<subcategoria>
+<item name="idSubCategoria">7084</item>
+<item name="SubCategoria">Madrileña</item>
+</subcategoria>
+<subcategoria>
+<item name="idSubCategoria">7461</item>
+<item name="SubCategoria">Tradicional renovada</item>
+</subcategoria>
+</subcategorias>
+</categoria>
+</categorias>
+<item name="Servicios de pago">
+<![CDATA[ ]]>
+</item>
+<item name="Horario">
+<![CDATA[ <p>Lunes a domingos: 19:30 - 24:30 h</p> ]]>
+</item>
+<fechas/>
+</extradata>
+</service>
