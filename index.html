@@ -1,7 +1,6 @@
-<!-- http://127.0.0.1:5500/indice.html -->
-<!-- http://127.0.0.1:5501/indice.html -->
+<!-- http://127.0.0.1:5500 -->
+<!-- http://127.0.0.1:5501/index.html -->
 <!-- https://amazwoj577-hue.github.io/pagina-web-grupo3.io/ -->
-<!-- aun no hay nada-->
 
 <!DOCTYPE html>
 <html lang="es">
@@ -240,8 +239,10 @@
 
         function showSlide(n, carouselId) {
             const carousel = carousels[carouselId];
-    
+
+            // Si se pasa del final, vuelve al inicio
             if (n >= carousel.slides.length) carousel.currentSlide = 0;
+            //Si retrocede antes del inicio, va al final
             if (n < 0) carousel.currentSlide = carousel.slides.length - 1;
 
             carousel.slides.forEach(slide => slide.classList.remove('active'));
@@ -252,11 +253,6 @@
         function changeSlide(direction, carouselId) {
             carousels[carouselId].currentSlide += direction;
             showSlide(carousels[carouselId].currentSlide, carouselId);
-        }
-
-        function goToSlide(n, carouselId) {
-            carousels[carouselId].currentSlide = n;
-            showSlide(n, carouselId);
         }
 
         // Inicializar todos los carruseles al cargar la página
